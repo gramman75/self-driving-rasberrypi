@@ -6,8 +6,11 @@ Pi Camera 설치
 
 이번에는 Pi Camera를 Rasberry Pi에 연결하고 정상적으로 작동이 되는지 확인하는 과정입니다.
 
-사전에 Rasbian이 설치되어 있어야 합니다. 설치 방법은 `공식 홈페이지 <https://www.raspberrypi.org/documentation/installation/installing-images/>_` 이나
-`산딸기 마을 <http://www.rasplay.org/?p=50>_` 을 참고해서 설치하시기 바랍니다.
+사전에 Rasbian이 설치되어 있어야 합니다. 설치 방법은 `공식 홈페이지 <https://www.raspberrypi.org/documentation/installation/installing-images/>`_ 이나
+`산딸기 마을 <http://www.rasplay.org/?p=50>`_ 을 참고해서 설치하시기 바랍니다.
+
+설치 후에 외부에서 원격접속을 위해서 무선 설정, 공유기 설정, SSH, FTP 설치 작업을 해줘야 편하게 작업을 할 수 있습니다.
+각 설정에 대해서는 인터넷 검색을 통해서 확인하시기 바랍니다.
 
 Pi Camera 모듈 연결
 ===================
@@ -17,7 +20,7 @@ Pi Camera는 Rasberry Pi에 연결하여 이미지나 동영상을 촬영할 수
 .. figure:: ../../_static/01.picamera_setup/image01.jpg
     :align: center
 
-    Pi Camear Module
+    Pi Camera Module
 
 Pi Camera와 Rasberry Pi를 연결하기 위해서 아래 붉은 상자안에 있는 하얀색 부분을 잡고 위로 살짝 올립니다.
 
